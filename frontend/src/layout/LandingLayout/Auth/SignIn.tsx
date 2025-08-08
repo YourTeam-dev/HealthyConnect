@@ -4,7 +4,7 @@ import AuthForm from "../../../components/authComponent/AuthForm";
 
 export default function SignIn() {
   return (
-    <AuthLayout title="Sign in to your account">
+    <AuthLayout title="Welcome Back" subtitle="Sign in to access your healthcare dashboard">
       <AuthForm type="signin" />
     </AuthLayout>
   );
