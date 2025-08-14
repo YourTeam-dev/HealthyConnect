@@ -221,7 +221,7 @@ const chatSlice = createSlice({
         state.messages.push(action.payload);
       }
       
-      // Sort messages by creation time (newest at the bottom for chat UI)
+      // Sort messages by creation time (newest at the bottom for chat UI
       state.messages.sort((a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime());
     },
     clearMessages(state) {
